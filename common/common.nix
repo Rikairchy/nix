@@ -4,6 +4,7 @@
   imports =
     [ 
       ./docker.nix
+      ./nfs.nix
       ./packages.nix
       ./services.nix
       ./time.nix
