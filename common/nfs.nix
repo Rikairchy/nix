@@ -5,5 +5,5 @@
     device = "10.0.1.226:/nfs" ;
     fsType = "nfs";
   };
-  boot.supportedFilesystems = [ "nfs ];
+  boot.supportedFilesystems = [ "nfs" ];
 }
