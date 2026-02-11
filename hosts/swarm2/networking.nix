@@ -5,14 +5,14 @@
     interfaces.ens192 = {
       ipv4.addresses = [
         {
-          address = "10.0.1.220";
+          address = "10.0.1.221";
           prefixLength = 24;
         }
       ];
     };
     defaultGateway = "10.0.1.1";
     nameservers = [ "10.0.1.1" ];
-    hostName = "swarm1";
+    hostName = "swarm2";
     domain = "internal.homelab.services";
   };
 }
