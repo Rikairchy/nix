@@ -21,6 +21,7 @@
       };
       swarm5 = nixpkgs.lib.nixosSystem {
         modules = [ ./hosts/swarm5/configuration.nix ];
+      };
     };
   };
 }
